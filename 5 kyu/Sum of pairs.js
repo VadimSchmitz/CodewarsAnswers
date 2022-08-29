@@ -1,0 +1,11 @@
+//https://www.codewars.com/kata/54d81488b981293527000c8f/javascript
+
+var sumPairs = function (ints, s) {
+  var seen = {};
+  for (var i = 0; i < ints.length; ++i) {
+    if (seen[s - ints[i]]) return [s - ints[i], ints[i]];
+    seen[ints[i]] = true;
+  }
+};
+
+console.log(sumPairs([4, 7, -2, 3, 3, 4, 1], 8)); //[4,4]
