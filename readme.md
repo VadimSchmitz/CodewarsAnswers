@@ -1,3 +1,3 @@
-# Codewars answers
+# Coding challenges
 
-The goal of these challanges are to improve the thing I am the worst in. This is the syntax and data manipulation of algorithms.
+To improve on algorithms and math all of the coding challenges I make will end up in this repo.
